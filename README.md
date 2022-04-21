@@ -28,3 +28,12 @@ npm install
 ng serve -o
 ```
 
+si vous changiez le port dans le .env du dossier backend
+veuillez aussi mettre à jour l'objet environment dans le dossier frontend
+```bash
+// src/environments/environment.ts
+export const environment = {
+  production: false,
+  rssFeedBackendUrl: "http://localhost:8001" //par exemple
+};
+```

@@ -1,6 +1,6 @@
 # rssfeed
 
-## Ce Mini projet utilise Nodejs+express pour le backend et angular + bootstrap pour l'integration.
+## Ce mini projet utilise Nodejs+express pour le backend et angular + bootstrap pour l'integration.
 
 # Installation
 Cloner le projet

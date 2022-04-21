@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 dotenv.config();
 const parser = new RSSParser({
     customFields: {
-        item: ['title','pubDate', 'description','guid','link','media:content','media:description','media:credit',],
+        item: ['title','pubDate', 'description','guid','link','media:content',],
       }
 });
 

@@ -4,8 +4,6 @@ import dotenv from "dotenv";
 
 import rssfeedRoute from "./src/routes/rssfeed.route.js"
 
-dotenv.config();
-
 const app = express();
 
 app.use(cors());

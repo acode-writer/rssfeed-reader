@@ -56,8 +56,6 @@ export class ItemComponent implements OnInit {
     this.target = event.target as HTMLElement
     const parent = (this.target.parentNode as HTMLElement);
     this.referentiel = (parent.lastElementChild as HTMLElement);
-    console.log(parent);
-    
     (event.target as HTMLElement).remove();
     const wrapper = document.createElement('div');
     wrapper.classList.add("form-group");

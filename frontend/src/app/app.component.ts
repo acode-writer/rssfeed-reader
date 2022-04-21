@@ -31,7 +31,6 @@ export class AppComponent {
           const items = <[Item]>response.items.slice(this.rssFeedService.begin,end);
           observer.next(items);
         })
-        console.log(response);
         
       }
     )

@@ -1,6 +1,6 @@
 # rssfeed
 
-## Ce Mini projet utilise Nodejs+express pour le backend et angular pour le frontend.
+## Ce mini projet utilise Nodejs+express pour le backend et angular + bootstrap pour l'integration.
 
 # Installation
 Cloner le projet
@@ -12,7 +12,7 @@ cd backend/
 npm install
 npm start
 ```
-Sir le serveur ne demarre pas allez dans le fichier .env et changer le port
+Si le serveur ne demarre pas allez dans le fichier .env et changer le port
 
 ```bash
 PORT=8001 // par exemple

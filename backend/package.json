@@ -2,21 +2,25 @@
   "name": "RSS feed reader backend project",
   "version": "1.0.0",
   "description": "RSS feed reader for EDACY test",
-  "main": "server.js",
+  "engines": {
+    "node": "14.x"
+  },
   "type": "module",
+  "main": "server.js",
   "scripts": {
-    "build": "npm install",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "keywords": [
-    "heoku"
+    "node",
+    "heroku",
+    "express"
   ],
   "author": "https://github.com/acode-writer",
   "license": "ISC",
   "devDependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
-    "express": "^4.17.3",
+    "express": "4.17.3",
     "nodemon": "^2.0.15",
     "rss-parser": "^3.12.0"
   },
@@ -26,8 +30,5 @@
     "dotenv": "^16.0.0",
     "nodemon": "^2.0.15",
     "rss-parser": "^3.12.0"
-  },
-  "engines": {
-    "node": "16.x"
   }
 }
